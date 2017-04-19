@@ -4,6 +4,7 @@ $config = require "config.php";
 require_once "User.php";
 require_once "UserRepository.php";
 
+// a videoportal.sql-t a phpmyadmin segítségével importáld
 // a $config alapján hozzatok létre egy mysqli-t, 
 // itt kell használni a UserRepository-t a mysqli segítségével
 
