@@ -10,7 +10,7 @@ class Application {
     private $router;
     private $controller;
 
-    public function __construct(Renderer $renderer, Router $router, Controller $controller) {
+    public function __construct(HtmlRenderer $renderer, Router $router, Controller $controller) {
         $this->controller = $controller;
         $this->renderer = $renderer;
         $this->router = $router;

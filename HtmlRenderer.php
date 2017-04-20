@@ -4,14 +4,16 @@
 *   Ez az osztály felelős azért, hogy megkeresse a megfelelő template fájlt és kiírja annak a tartalmát. Más objektum nem 
 *   include-olhat vagy írhat ki semmit a kész kódban.
 */
-class Renderer {
+class HtmlRenderer {
     
     /**
     * Ez a metódus felelős azért, hogy a kapott view name és adatok alapján kiírja a HTML tartalmat.
     * a $data tömb adatait az extract segítségével tudod "kicsomagolni", ezután include segítségével pedig a template-et
     * behúzni.
+     * http://php.net/manual/en/function.extract.php
+     *
     */
-    public function render($viewName, $data) {
+    public function render($viewName, array $data) {
 
     }
 
